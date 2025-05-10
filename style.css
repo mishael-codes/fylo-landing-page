@@ -188,7 +188,7 @@ nav ul li a{
   border-radius: 50%;
 }
 
-#reviewer-info h3{
+#reviewer-info p:first-of-type{
   color: var(--very-dark-blue);
   font-size: 16px;
   font-weight: 700;
@@ -198,4 +198,29 @@ nav ul li a{
   color: var(--desaturated-blue);
   font-size: 14px;
   font-weight: 400;
+}
+
+.early-access{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  color: #fff;
+  padding: 40px 20px;
+  background-color: var(--desaturated-blue);
+}
+
+.early-access h3{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.early-access p{
+  font-size: 17.5px;
+}
+
+.early-access .cta{
+  width: 80%;
 }
