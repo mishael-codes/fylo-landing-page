@@ -93,6 +93,23 @@ nav ul li a {
   gap: 15px;
 }
 
+label{
+  width: 100%;
+  text-align: left;
+}
+
+.error{
+  color: red;
+}
+
+.errorInput{
+  border: 1px solid red;
+}
+
+.success{
+  color: var(--moderate-cyan);
+}
+
 .cta input {
   border: 1px solid var(--light-gray);
 }

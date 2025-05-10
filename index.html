@@ -49,13 +49,16 @@
             </p>
           </div>
           <div class="cta">
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Enter your email"
-            />
-            <button type="submit">Get Started</button>
+            <label for="email">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+              />
+              <small class="error-message"></small>
+            </label>
+            <button class="submit">Get Started</button>
           </div>
         </div>
       </div>
@@ -127,13 +130,16 @@
           </p>
         </div>
         <div class="cta">
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="email@example.com"
-          />
-          <button type="submit">Get Started For Free</button>
+          <label for="email">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="email@example.com"
+            />
+            <small class="error-message"></small>
+          </label>
+          <button class="submit">Get Started For Free</button>
         </div>
       </section>
     </main>
@@ -181,5 +187,7 @@
         >.
       </p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
