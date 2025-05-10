@@ -15,31 +15,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Open-sans, sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   max-width: 100vw;
+  font-family: Open-sans, sans-serif;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px;
+  padding: 20px;
 }
 
 .logo-wrapper {
-  width: 120px;
+  width: 100px;
 }
 
-#logo,
-#footer-logo {
+#logo{
   width: 100%;
-}
-
-nav {
-  padding: 20px;
 }
 
 nav ul {
@@ -51,6 +47,7 @@ nav ul {
 nav ul li a {
   color: var(--very-dark-blue);
   font-family: Raleway, sans-serif;
+  font-size: 13px;
   font-weight: 400;
   text-decoration: none;
 }
@@ -63,7 +60,7 @@ nav ul li a {
   justify-content: center;
   text-align: center;
   padding: 20px;
-  margin-bottom: 100px;
+  padding-bottom: 140px;
 }
 .hero-image-wrapper {
   width: 90vw;
@@ -85,7 +82,7 @@ nav ul li a {
   color: var(--very-dark-blue);
   font-size: 16px;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .cta {
@@ -94,6 +91,10 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   gap: 15px;
+}
+
+.cta input {
+  border: 1px solid var(--light-gray);
 }
 
 .cta input,
@@ -116,6 +117,7 @@ nav ul li a {
 .main-container {
   position: relative;
   background-color: var(--light-grayish-blue);
+  padding-bottom: 100px;
 }
 
 #curve-mobile {
@@ -131,7 +133,7 @@ nav ul li a {
 
 #stay-productive h2 {
   color: var(--very-dark-blue);
-  font-size: 18px;
+  font-size: 16px;
   width: fit-content;
   margin: 40px auto 20px;
   font-family: Raleway, sans-serif;
@@ -143,17 +145,20 @@ nav ul li a {
   font-family: Open-sans, sans-serif;
 }
 
-#stay-productive p:first-of-type,
-#stay-productive p:last-of-type {
+#stay-productive p {
   margin: 20px 0;
 }
 
 #stay-productive a {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--moderate-cyan);
   width: fit-content;
-  margin: 0 auto;
-  text-underline-offset: 3px;
+  margin: 40px auto;
+  text-decoration: none;
+  padding-bottom: 7px;
+  border-bottom: 2px solid var(--moderate-cyan);
 }
 
 .testimonial {
@@ -167,6 +172,7 @@ nav ul li a {
   padding: 20px;
   gap: 20px;
   text-align: left;
+  box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial p {
@@ -209,7 +215,7 @@ nav ul li a {
   text-align: center;
   gap: 20px;
   color: #fff;
-  padding: 40px 20px;
+  padding: 70px 20px;
   background-color: var(--desaturated-blue);
 }
 
@@ -220,10 +226,12 @@ nav ul li a {
 
 .early-access p {
   font-size: 17.5px;
+  color: var(--light-grayish-blue);
 }
 
 .early-access .cta {
-  width: 80%;
+  width: 100%;
+  scale: .9;
 }
 
 footer {
@@ -235,29 +243,41 @@ footer {
     contrast(1.05);
 }
 
-#contact{
+#contact {
   margin: 50px 0;
 }
 
-#contact p{
+#contact p {
+  display: flex;
+  align-items: center;
+  justify-content: start;
   color: #fff;
 }
 
-#contact p:first-of-type{
+#contact p:first-of-type {
   color: #fff;
   margin: 15px 0;
 }
 
-#contact img{
-  margin-right: 10px;
+#contact img {
+  margin-right: 20px;
 }
 
-.more-info{
+.more-info {
   color: #fff;
   list-style-type: none;
   margin-bottom: 50px;
 }
 
-.more-info li{
+.more-info li {
   margin: 20px 0;
+}
+
+.attribution {
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--moderate-cyan);
 }
