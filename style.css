@@ -1,0 +1,43 @@
+:root{
+  /* Primary */
+  --very-dark-blue: hsl(243, 87%, 12%);
+  --desaturated-blue: hsl(238, 22%, 44%);
+  /* Accent */
+  --bright-blue: hsl(224, 93%, 58%);
+  --moderate-cyan: hsl(170, 45%, 43%);
+  /* Neutral */
+  --light-grayish-blue: hsl(240, 75%, 98%);
+  --light-gray: hsl(0, 0%, 75%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.logo-wrapper{
+  width: 120px;
+}
+
+#logo{
+  width: 100%;
+}
+
+nav ul{
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+nav ul li a{
+  color: #000;
+  text-decoration: none;
+}
