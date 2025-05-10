@@ -409,7 +409,7 @@ footer {
     text-align: left;
     gap: 20px;
     color: #fff;
-    padding: 70px 20px;
+    padding: 100px;
   }
 
   .early-access div {
@@ -441,7 +441,8 @@ footer {
   }
 
   footer {
-    padding: 70px 40px;
+    padding: 120px;
+    justify-content: space-around;
   }
   footer section {
     display: flex;
